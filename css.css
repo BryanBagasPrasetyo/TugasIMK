@@ -1,0 +1,172 @@
+/* css.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mengatur konten header ke tengah secara vertikal */
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative; /* Menambahkan posisi relatif untuk menopang posisi absolut logo */
+}
+
+.logo-text {
+    margin: 0; /* Menghilangkan margin agar tulisan tidak berjauhan */
+}
+
+nav {
+    margin-top: 10px; /* Memberikan margin atas untuk menu navigasi */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Menghilangkan margin pada list */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS lainnya seperti produk, kontak, dan footer tetap sama */
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.cart-item-controls {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-controls button {
+    background-color: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.cart-item-controls button:hover {
+    background-color: #e0a800;
+}
+
+button.checkout {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.checkout:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px 0; /* Mengurangi ukuran padding lebih lanjut untuk mengecilkan footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    margin: 0 10px; /* Mengurangi margin untuk membuat footer lebih kompak */
+}
+footer img {
+    width: 20px; /* Memperkecil ukuran gambar di footer */
+    height: auto;
+    vertical-align: middle;
+}
